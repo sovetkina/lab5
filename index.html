@@ -6,7 +6,7 @@
 	</head>
 	<body>
 		<script>		
-		 	var str = prompt("Введите строку");
+		    var str = prompt("Введите строку");
 		    var regexp = /\b([01]?\d\d?|2[0-4]\d|25[0-5])\.([01]?\d\d?|2[0-4]\d|25[0-5])\.([01]?\d\d?|2[0-4]\d|25[0-5])\.([01]?\d\d?|2[0-4]\d|25[0-5])\b/g;
 		    var group = str.match(regexp);
 		    alert(group);
